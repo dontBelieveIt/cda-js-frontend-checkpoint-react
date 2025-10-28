@@ -7,7 +7,8 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "codegen": "graphql-codegen-typescript-common --config codegen.yml"
   },
   "dependencies": {
     "@apollo/client": "^3.11.10",

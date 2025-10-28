@@ -3,7 +3,7 @@
 //color palette 
 $wns-pink : #f7146b;
 $lightpink: #b484b8; 
-$bg-grey: #f1f1f1;
+$bg: #f1f1f1;
 
 //color used in the project 
 $main: $wns-pink;
@@ -66,4 +66,19 @@ h4, h5, h6 {
 @mixin width-height { 
     width: 100%;
     height: 100%;
+}
+
+.main-container {
+    margin-top: $padding; 
+    background-color: $bg; 
+    padding: $padding; 
+    border-radius: $border-radius;
+    @include width-height;
+}
+
+.tiles-container {
+    @include width-height; 
+    @include flex-row;
+    gap: 20px;
+    flex-wrap: wrap;
 }

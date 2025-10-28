@@ -6,10 +6,10 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import AddCountry from "./pages/AddCountry";
 import ContryPage from "./pages/ContryPage";
 
+
 const client = new ApolloClient({
   uri: "/api",
   cache: new InMemoryCache(),
-  credentials: "same-origin",
 });
 
 function App() {

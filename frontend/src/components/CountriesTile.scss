@@ -1,0 +1,26 @@
+@import "../main.scss"; 
+
+.cards {
+    height: 100px; 
+    width: 170px;
+    border-radius: $border-radius; 
+
+    position: relative; 
+    @include flex-column; 
+    @include align-center; 
+
+    border: 1px solid $main;
+
+    .emoji {
+        font-size: 70px; 
+        line-height: 1;
+        margin: 0
+    }
+
+    &:hover {
+        background-color: $btn-hover;
+        transition: 0.4s;
+    }
+    transition: 0.4s;
+
+}

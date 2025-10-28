@@ -5,12 +5,12 @@ import { Footer } from "./Footer";
 
 export function PageLayout() {
   return (
-    <body>
+    <>
       <Header />
       <main>
         <Outlet />
       </main>
       <Footer />
-    </body>
+    </>
   );
 }
