@@ -1,0 +1,15 @@
+@use 'sass:color'; //allow the use of color.adjust
+
+//color palette 
+$wns-pink : #f7146b;
+$lightpink: #b484b8; 
+$bg-grey: #f1f1f1;
+
+$main: $wns-pink;
+$btn-hover: color.adjust($main, $blackness: 15%); 
+
+* {
+    box-sizing: border-box;
+    margin: unset; 
+    padding: unset; 
+}
