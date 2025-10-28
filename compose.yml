@@ -19,4 +19,5 @@ services:
     volumes:
       - ./frontend/src:/app/src
     environment:
-      - API_URL=http://backend:4000/graphql
+      - "API_URL=http://backend:4000/graphql"
+      - "CHOKIDAR_USEPOLLING: true" 
