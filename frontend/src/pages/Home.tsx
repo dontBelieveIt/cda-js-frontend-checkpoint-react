@@ -1,3 +1,7 @@
+import ListPays from "../components/ListPays";
+
 export function HomePage() {
-  return <p>You should start working here!</p>;
+  return(
+    <ListPays />
+  );
 }

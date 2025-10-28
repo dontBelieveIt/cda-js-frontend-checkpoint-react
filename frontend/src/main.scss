@@ -31,6 +31,7 @@ body {
 
     main {
         min-height: calc(100vh - (150px + 100px) + (3 * $padding)); 
+        margin: $padding; 
     }
 }
 h1 {

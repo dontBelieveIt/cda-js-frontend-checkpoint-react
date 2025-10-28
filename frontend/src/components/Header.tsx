@@ -9,6 +9,7 @@ export function Header() {
       </div>
       <div className="nav">
       <Link to="/">Countries</Link>
+      <Link to="/add-country">Add country</Link>
       </div>
     </header>
   );
