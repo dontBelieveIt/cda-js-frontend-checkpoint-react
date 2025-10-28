@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
+import "./Header.scss"; 
 
 export function Header() {
   return (
     <header className="header">
-      <h1>Checkpoint : frontend</h1>
+      <div className="logo">
+      <h1>Countries App</h1>
+      </div>
+      <div className="nav">
       <Link to="/">Countries</Link>
+      </div>
     </header>
   );
 }

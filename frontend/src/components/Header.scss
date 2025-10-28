@@ -1,0 +1,21 @@
+@import '../main.scss'; 
+
+.header {
+    width: calc(100vw - (2 * $padding));
+    height: 100px; 
+    margin: $padding; 
+    background-color: $main;
+    border-radius: $border-radius; 
+    padding: $padding;
+
+    @include flex-row; 
+    align-items: center;
+    justify-content: space-between;
+
+    .nav {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
